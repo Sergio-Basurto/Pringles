@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightpink;
+}
+section {
+  padding: 50px;
+}
+.header {
+  margin-bottom: 50px;
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icons {
+  display: inline-block;
+  gap: 18px;
+}
+.fa-arrow-alt-circle-down {
+  font-size: 2rem;
+  color: black;
+}
+.fa-camera-retro {
+  font-size: 2rem;
+  color: black;
+}
+.fa-instagram {
+  font-size: 2rem;
+  color: black;
+}
+.fa-youtube {
+  font-size: 2rem;
+  color: black;
+}
+
+.text-align {
+  text-align: center;
+}
+#about {
+  font-size: 60px;
+  font-style: sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+  font-style: italic;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+#gallery img {
+  max-width: 100%;
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#favorite-videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.favorite-video-description {
+  margin-top: 0;
+  padding-top: 0%;
+}
+footer {
+  margin-top: 20px;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  background-color: transparent;
+}
+.copyright {
+  font-size: 10px;
+}
+
+.popup {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+}
